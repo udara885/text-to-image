@@ -1,6 +1,6 @@
 import { HfInference } from "@huggingface/inference"
 
-const hf = new HfInference(process.env.API_KEY)
+const hf = new HfInference("Your API Key")
 
 const prompt = document.getElementById("prompt")
 const button = document.getElementById("button")
